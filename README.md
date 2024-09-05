@@ -10,16 +10,9 @@ The aim is to develop and compare reinforcement learning agents using Q-learning
 3. Dyna-Q+ extends Dyna-Q by incorporating exploration bonuses to encourage the agent to explore less-visited states. The agent uses these exploration bonuses to balance exploration and exploitation more effectively.
 4. Prioritized Sweeping focuses on updating states that are likely to result in significant changes in the value function. The agent prioritizes updates for states that have the highest potential impact on learning.
 
-## Reinforcement Learning
+### Reinforcement Learning
 Reinforcement learning is a type of machine learning where an agent learns to make decisions by interacting with an environment. Unlike supervised learning, where the algorithm is trained on labeled data, and unsupervised learning, which deals with unlabeled data, reinforcement learning relies on a feedback mechanism called rewards and penalties.
 
-### Why reinforcement learning
-Reinforcement learning is valuable for several reasons:
-● Complex Decision-Making: Reinforcement learning is effective for tasks where decisions are complex and involve interacting with dynamic environments. Examples include robot navigation, game playing, and autonomous driving, where decisions depend on real-time feedback and uncertainty.
-● Adaptability: Reinforcement learning allows agents to adapt to changing environments and learn optimal strategies over time. This adaptability is crucial in scenarios where conditions may vary, such as in financial markets or resource management.
-● Trial and Error Learning: Reinforcement learning enables agents to learn through trial and error, exploring different actions and learning from the outcomes. This iterative learning process is beneficial for tasks with no predefined solution or where exploration is necessary to discover optimal strategies.
-● Optimization: The goal of reinforcement learning is to maximize cumulative rewards over time, leading to optimized decision-making. This optimization can lead to cost savings, improved efficiency, and better performance in various applications.
-● Dynamic Environments: In environments where the rules or conditions change frequently, reinforcement learning excels. It can adapt to new scenarios, handle uncertainties, and continue learning without the need for explicit programming.
 
 ### Evaluation Criteria -
 
